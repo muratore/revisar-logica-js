@@ -45,9 +45,9 @@ const studantScore = (score) =>{
   }
 }
 studantScore(7)
-console.log('************** Imprimir ímpares de 100 a 200 ********************');
+console.log('************** Imprimir ímpares de 100 a 200 *****************');
 
-const printAllEvenFrom100To200 = ()=>{
+const printAllOddFrom100To200 = ()=>{
     for (let index = 100; index < 200; index++) {  
         if (index % 2) {
             console.log(index)
@@ -55,7 +55,7 @@ const printAllEvenFrom100To200 = ()=>{
     }
 }
 
-printAllEvenFrom100To200();
+printAllOddFrom100To200();
 
 
 console.log('***************** Dia da Semana ********************');
